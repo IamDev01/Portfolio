@@ -1,0 +1,142 @@
+    #top-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(216, 216, 216);
+        padding: 20px 10px;
+        background-color: white;
+    }
+
+    #top-bar a {
+        text-decoration: none;
+    }
+
+    .nome {
+        margin-left: 5%;
+        font-size: 24px;
+        font-weight: 800;
+        background: var(--text-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .social-links {
+        align-items: center;
+    }
+
+    .social-link {
+        margin-left: 10px;
+    }
+
+    .social-link img {
+        width: 30px;
+        height: 30px;
+    }
+
+    body {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+        margin: 0px;
+    }
+
+    .h1-container {
+        vertical-align: middle;
+    }
+
+    .h1-primeiro {
+        line-height: 0.8;
+        font-size: 24px;
+        font-size: max(12px, min(24px, 2vw));
+        background: var(--text-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .h1-segundo {
+        line-height: 0.8;
+        font-size: 24px;
+        font-size: max(12px, min(24px, 2vw));
+        background: var(--text-fullStack);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    :root {
+        --text-fullStack: linear-gradient(180deg, rgb(0, 0, 255), rgb(0, 150, 255));
+    }
+
+    :root {
+        --text-gradient: linear-gradient(180deg, rgb(127, 127, 127), rgb(0, 0, 0));
+    }
+
+    .h1-and-slideshow-container {
+        display: flex;
+        align-items: center;
+        gap: 2%;
+        margin-bottom: 20px;
+    }
+
+    .slideshow-container,
+    .slideshow-container img {
+        width: 150px;
+        height: 150px;
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    #sobre {
+        background-color: rgb(242, 242, 242);
+        font-size: 16px;
+        padding: 10px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+
+    .container-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+
+    .box1 {
+        background-color: rgb(242, 242, 242);
+    }
+
+    .box1,
+    .box2 {
+        padding: 10px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        gap: 1%;
+    }
+
+    .box1 img,
+    .box2 img {
+        max-width: 247px;
+        max-height: 106px;
+    }
+
+    footer {
+        background-color: rgb(40, 40, 40);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 30px;
+        font-size: 12px;
+        line-height: 30px;
+    }
