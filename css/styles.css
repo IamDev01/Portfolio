@@ -117,16 +117,20 @@
         gap: 1%;
     }
 
-    .h3_container {
-        display: flex;
+    .projetos_button {
         background-color: black;
-        padding: 5px;
-        width: 70%;
-        align-items: center;
-        justify-content: center;
+        padding: 15px;
+        cursor: pointer;
+        border: none;
+        transition: background-color 0.3s ease;
     }
 
-    h3, a {
+    .projetos_button:hover {
+        background-color: rgb(0, 100, 255);
+    }
+
+    h3,
+    a {
         color: white;
         text-decoration: none;
     }
